@@ -1,0 +1,29 @@
+{
+    "name": "PDF FUSION NEXUS",
+    "version": "1.0.0",
+    "description": "Aplicación ideal para combinar archivos PDF y convertirlos a documentos de Word.",
+    "main": "main.py",
+    "icon": "icono.ico",
+    "window": {
+        "width": 800,
+        "height": 600,
+        "resizable": true,
+        "fullscreen": false
+    },
+    "files": [
+        "main.py",
+        "main_window.py",
+        "PDFViewerWindow.py",
+        "converter.py",
+        "icono.ico"
+    ],
+    "dependencies": {
+        "PyQt5": "^5.15.4",
+        "PyPDF2": "^1.26.0",
+        "pdf2docx": "^0.3.3",
+        "PyMuPDF": "^1.18.17",
+        "opencv-python": "^4.5.3",
+        "Pillow": "^8.3.1",
+        "numpy": "^1.21.1"
+    }
+}
